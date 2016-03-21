@@ -21,7 +21,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xsd" version="2.0">
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:variable name="MsgList" select="document('../../XML/MessageList.xml')"/>
+    <xsl:variable name="MsgList" select="document('../../XSD/Normalized/MessageList.xml')"/>
     <xsl:variable name="ConsolidatedCompositesPath" select="'../../XSD/APP-11C-ch1/Consolidated/composites.xsd'"/>
 
     <xsl:variable name="allcomposites">
